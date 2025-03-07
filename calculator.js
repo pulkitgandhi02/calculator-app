@@ -12,6 +12,13 @@ function clearDisplay() {
   display.value = "";
 }
 
+// Function to remove the last character
+function removeLast() {
+  currentDisplay = currentDisplay.slice(0, -1); // Remove last character
+  display.value = currentDisplay; // Update display
+}
+
+
 function calculate() {
   try {
     currentDisplay = eval(currentDisplay); // Safely evaluate the expression
