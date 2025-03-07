@@ -1,4 +1,5 @@
 // Initialize display value
+alert("Welcome to my JS Calculator ❤️ Try Calculating Something")
 let currentDisplay = "";
 const display = document.querySelector("#Display");
 
