@@ -43,8 +43,8 @@
 }
 
 #remove-btn {
-  background-color: red;  /* Change color */
-  color: white;  /* Make text white */
+  background-color: rgb(241, 98, 98);  
+  color: black;  
   border-radius: 3px; 
   border: 0.6px solid black;
   font-weight: bold;
