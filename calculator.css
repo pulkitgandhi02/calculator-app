@@ -41,3 +41,11 @@
   width: 100px;
   /* flex-grow: 50px; */
 }
+
+#remove-btn {
+  background-color: red;  /* Change color */
+  color: white;  /* Make text white */
+  border-radius: 3px; 
+  border: 0.6px solid black;
+  font-weight: bold;
+}
